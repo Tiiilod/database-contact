@@ -1,17 +1,30 @@
-# database_sqlite
+<img width="497" height="1035" alt="Screenshot 2026-05-13 090456" src="https://github.com/user-attachments/assets/800deba4-89a9-4967-b118-73fb4f787001" />
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+apliaksidatabese
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+🗂️ Aplikasi Database SQLite Proyek Flutter sederhana untuk mengelola data menggunakan SQLite (sqflite) dengan menytimpan data nomor telepon dan nama. Aplikasi ini menunjukkan implementasi CRUD (Create, Read, Update, Delete) dengan database lokal, cocok untuk belajar dasar integrasi database di Flutter.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+🚀 Fitur Tambah data baru ke database.
+
+Lihat daftar data yang tersimpan.
+
+Edit data yang sudah ada.
+
+Hapus data dari database.
+
+Database otomatis dibuat saat pertama kali aplikasi dijalankan.
+
+📂 Struktur Proyek Code apliaksidatabese/ │── lib/ │ ├── main.dart # Entry point aplikasi │ ├── db_instance.dart # Setup & koneksi SQLite │ ├── data_model.dart # Model data │ ├── home_page.dart # Tampilan daftar data │ ├── add_edit_page.dart # Form tambah/edit data │── pubspec.yaml # Dependencies Flutter │── README.md # Dokumentasi proyek ⚙️ Instalasi Clone repository:
+
+bash git clone https://github.com/tiiilod/database-contact.git cd database-contact/database-sqlite Install dependencies:
+
+bash flutter pub get Jalankan aplikasi:
+
+bash flutter run 📦 Dependencies sqflite – SQLite untuk Flutter
+
+path_provider (pub.dev in Bing) – Lokasi penyimpanan database
+
+
